@@ -75,8 +75,6 @@ Uma plataforma web centralizada e responsiva que:
 
 ## 📬 Contato
 
-- E-mail institucional: [seu-email@escola.com](mailto:seu-email@escola.com)  
-- Instagram: [@seu_projeto](https://instagram.com/...)  
-- Site da escola: [www.linkdaescola.com](https://...)
+- E-mail: [lmiguells095@gmail.com](mailto:lmiguells095@gmail.com)  
 
 ---
