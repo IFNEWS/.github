@@ -5,7 +5,7 @@ Bem-vindo à página oficial do nosso projeto de desenvolvimento de um **portal 
 Atualmente, a disseminação de informações é esparsa e nem todos os comunicados chegam a todos os alunos. Nosso objetivo é criar uma plataforma acessível, clara e centralizada para garantir que **ninguém fique de fora** do que acontece na escola.
 
 ---
-IMPORTANTE(https://docs.google.com/spreadsheets/d/1KXuMJ9TK7GPyahR_BfLwfn4ec7vX7DgiHx42vFc4E7g/edit?gid=932601097#gid=932601097)
+[IMPORTANTE](https://docs.google.com/spreadsheets/d/1KXuMJ9TK7GPyahR_BfLwfn4ec7vX7DgiHx42vFc4E7g/edit?gid=932601097#gid=932601097)
 ---
 
 ## 🎯 Objetivo do Projeto
