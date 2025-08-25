@@ -5,7 +5,7 @@ Bem-vindo à página oficial do nosso projeto de desenvolvimento de um **portal 
 Atualmente, a disseminação de informações é esparsa e nem todos os comunicados chegam a todos os alunos. Nosso objetivo é criar uma plataforma acessível, clara e centralizada para garantir que **ninguém fique de fora** do que acontece na escola.
 
 ---
-**IMPORTANTE:**(https://docs.google.com/spreadsheets/d/1KXuMJ9TK7GPyahR_BfLwfn4ec7vX7DgiHx42vFc4E7g/edit?gid=932601097#gid=932601097)
+*IMPORTANTE:*(https://docs.google.com/spreadsheets/d/1KXuMJ9TK7GPyahR_BfLwfn4ec7vX7DgiHx42vFc4E7g/edit?gid=932601097#gid=932601097)
 ---
 
 ## 🎯 Objetivo do Projeto
@@ -83,78 +83,83 @@ Uma plataforma web centralizada e responsiva que:
 
 ## 📘 Especificação do Projeto — IFNEWS
 
-  📌 Regras de Negócio
+### 📌 Regras de Negócio
 
-Somente usuários autenticados com permissão de administrador podem publicar, editar ou excluir notícias.
+1. Somente usuários autenticados com permissão de administrador podem publicar, editar ou excluir notícias.  
+2. Usuários do tipo "Aluno" ou "Visitante" só têm permissão para visualizar conteúdos públicos.  
+3. Notícias devem ser categorizadas como: "Coordenação", "Professores", "Eventos", "Avisos Gerais".  
+4. Cada notícia deve conter: título, conteúdo, autor, data de publicação e categoria.  
+5. Notícias não podem ser publicadas com data futura.  
+6. A exclusão de uma notícia exige confirmação dupla para evitar perda acidental de informações.  
+7. Todas as publicações devem ser armazenadas com histórico de edições (log).  
+8. Professores podem publicar conteúdos apenas nas categorias "Professores" ou "Eventos", salvo autorização da coordenação.  
+9. A coordenação tem acesso completo ao painel administrativo, incluindo gerenciamento de usuários.  
+10. Notificações por e-mail ou push só podem ser enviadas para usuários cadastrados e com consentimento.  
 
-Usuários do tipo "Aluno" ou "Visitante" só têm permissão para visualizar conteúdos públicos.
+---
 
-Notícias devem ser categorizadas como: "Coordenação", "Professores", "Eventos", "Avisos Gerais".
+### ✅ Requisitos Funcionais
 
-Cada notícia deve conter: título, conteúdo, autor, data de publicação e categoria.
+#### 🔐 Autenticação e Acesso
 
-Notícias não podem ser publicadas com data futura.
+- RF01: O sistema deve permitir login de usuários (alunos, professores e coordenação).  
+- RF02: O sistema deve permitir cadastro e gerenciamento de usuários pela coordenação.  
+- RF03: O sistema deve aplicar controle de acesso baseado em perfis (Admin, Professor, Aluno, Visitante).  
 
-A exclusão de uma notícia exige confirmação dupla para evitar perda acidental de informações.
+#### 📰 Gerenciamento de Notícias
 
-Todas as publicações devem ser armazenadas com histórico de edições (log).
+- RF04: O sistema deve permitir criar, editar e excluir notícias.  
+- RF05: O sistema deve exibir a lista de notícias com título, resumo, autor, data e categoria.  
+- RF06: O sistema deve permitir filtrar notícias por categoria.  
+- RF07: O sistema deve permitir pesquisar notícias por palavras-chave.  
+- RF08: O sistema deve permitir visualizar a notícia completa em uma página dedicada.  
+- RF09: O sistema deve manter histórico de edições de cada notícia.  
 
-Professores podem publicar conteúdos apenas na categoria "Professores" ou "Eventos", salvo autorização da coordenação.
+#### 📅 Eventos e Cronogramas
 
-A coordenação tem acesso completo ao painel administrativo, incluindo gerenciamento de usuários.
+- RF10: O sistema deve permitir a publicação de eventos com data, descrição e local.  
+- RF11: O sistema deve exibir um calendário de eventos futuros.  
 
-Notificações por e-mail ou push só podem ser enviadas para usuários cadastrados e com consentimento.
+#### 🔔 Notificações
 
-  ✅ Requisitos Funcionais
+- RF12: O sistema deve permitir o envio de notificações por e-mail para usuários cadastrados.  
+- RF13: O sistema deve permitir ativar ou desativar notificações nas configurações do usuário.  
 
-Os requisitos funcionais descrevem tudo que o sistema precisa fazer do ponto de vista do usuário e do funcionamento da aplicação.
+#### 👥 Administração
 
-🔐 Autenticação e Acesso
-RF01: O sistema deve permitir login de usuários (alunos, professores e coordenação).
-RF02: O sistema deve permitir cadastro e gerenciamento de usuários pela coordenação.
-RF03: O sistema deve aplicar controle de acesso baseado em perfis (Admin, Professor, Aluno, Visitante).
+- RF14: O sistema deve permitir à coordenação aprovar ou remover usuários.  
+- RF15: O sistema deve permitir o gerenciamento de permissões (ex: tornar um professor administrador).  
+- RF16: O sistema deve permitir visualizar logs de ações realizadas no sistema.  
 
-📰 Gerenciamento de Notícias
-RF04: O sistema deve permitir criar, editar e excluir notícias.
-RF05: O sistema deve exibir a lista de notícias com título, resumo, autor, data e categoria.
-RF06: O sistema deve permitir filtrar notícias por categoria.
-RF07: O sistema deve permitir pesquisar notícias por palavras-chave.
-RF08: O sistema deve permitir visualizar a notícia completa em uma página dedicada.
-RF09: O sistema deve manter histórico de edições de cada notícia.
+---
 
-📅 Eventos e Cronogramas
-RF10: O sistema deve permitir a publicação de eventos com data, descrição e local.
-RF11: O sistema deve exibir um calendário de eventos futuros.
+### 🚫 Requisitos Não Funcionais
 
-🔔 Notificações
-RF12: O sistema deve permitir o envio de notificações por e-mail para usuários cadastrados.
-RF13: O sistema deve permitir ativar ou desativar notificações nas configurações do usuário.
+#### 🔒 Segurança
 
-👥 Administração
-RF14: O sistema deve permitir à coordenação aprovar ou remover usuários.
-RF15: O sistema deve permitir o gerenciamento de permissões (ex: tornar um professor administrador).
-RF16: O sistema deve permitir visualizar logs de ações realizadas no sistema.
+- RNF01: O sistema deve criptografar senhas utilizando algoritmo seguro (ex: bcrypt).  
+- RNF02: O sistema deve manter sessões com tokens de autenticação válidos e protegidos.  
+- RNF03: O sistema deve validar e sanitizar todos os inputs para evitar injeções e XSS.  
 
-🚫 Requisitos Não Funcionais
+#### 📱 Usabilidade
 
-🔒 Segurança
-RNF01: O sistema deve criptografar senhas utilizando algoritmo seguro (ex: bcrypt).
-RNF02: O sistema deve manter sessões com tokens de autenticação válidos e protegidos.
-RNF03: O sistema deve validar e sanitizar todos os inputs para evitar injeções e XSS.
+- RNF04: O sistema deve ser responsivo e acessível em dispositivos móveis e desktop.  
+- RNF05: A interface deve seguir princípios de design claro, com botões e menus bem identificados.  
+- RNF06: O sistema deve fornecer mensagens de erro e sucesso claras para o usuário.  
 
-📱 Usabilidade
-RNF04: O sistema deve ser responsivo e acessível em dispositivos móveis e desktop.
-RNF05: A interface deve seguir princípios de design claro, com botões e menus bem identificados.
-RNF06: O sistema deve fornecer mensagens de erro e sucesso claras para o usuário.
+#### ⚙️ Performance
 
- ⚙️ Performance
-RNF07: O sistema deve carregar a página inicial com tempo inferior a 2 segundos em rede 4G.
-RNF08: O sistema deve suportar pelo menos 100 acessos simultâneos sem degradação perceptível de desempenho.
+- RNF07: O sistema deve carregar a página inicial com tempo inferior a 2 segundos em rede 4G.  
+- RNF08: O sistema deve suportar pelo menos 100 acessos simultâneos sem degradação perceptível de desempenho.  
 
-🕒 Disponibilidade e Backup
-RNF09: O sistema deve estar disponível 99% do tempo (exceto janelas de manutenção).
-RNF10: O banco de dados deve ser backupado automaticamente ao menos 1 vez por dia.
+#### 🕒 Disponibilidade e Backup
 
-📂 Documentação e Manutenção
-RNF11: O sistema deve ter documentação técnica acessível para novos desenvolvedores.
-RNF12: O código deve seguir boas práticas de desenvolvimento (ex: PEP8, ESLint, etc.).
+- RNF09: O sistema deve estar disponível 99% do tempo (exceto janelas de manutenção).  
+- RNF10: O banco de dados deve ser backupado automaticamente ao menos 1 vez por dia.  
+
+#### 📂 Documentação e Manutenção
+
+- RNF11: O sistema deve ter documentação técnica acessível para novos desenvolvedores.  
+- RNF12: O código deve seguir boas práticas de desenvolvimento (ex: PEP8, ESLint, etc.).  
+
+---
