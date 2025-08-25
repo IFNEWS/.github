@@ -1,3 +1,5 @@
+/profile/README.md.
+
 # 📰 [IFNEWS]
 
 Bem-vindo à página oficial do nosso projeto de desenvolvimento de um **portal de notícias escolares**! Esta iniciativa surgiu para resolver um problema comum em muitas instituições de ensino: a **comunicação falha ou tardia** entre a coordenação, os professores e os alunos.
