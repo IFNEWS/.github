@@ -19,10 +19,10 @@ Desenvolver um site de notícias voltado à comunidade escolar, com foco em:
 
 ## 🧩 Tecnologias Utilizadas (exemplo - personalize)
 
-- HTML, CSS, JavaScript
-- Framework Frontend: [React / Vue / etc.]
-- Backend: [Node.js / Python / etc.]
-- Banco de dados: [MySQL / PostgreSQL / MongoDB]
+- HTML, CSS
+- Framework Frontend:
+- Backend:
+- Banco de dados:
 
 ---
 
@@ -58,12 +58,9 @@ Uma plataforma web centralizada e responsiva que:
 
 ## 👥 Equipe de Desenvolvimento
 
-- [Nome do Integrante 1]  
-- [Nome do Integrante 2]  
-- [Nome do Integrante 3]  
-- ...
+- [Luiz Miguel Lima de Souza](https://github.com/LMSLima)
 
-👨‍🏫 **Professor orientador**: [Nome do Professor]
+👨‍🏫 **Professor orientador**: [Marco André Mendes](https://github.com/marrcandre)
 
 ---
 
