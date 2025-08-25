@@ -1,6 +1,6 @@
 # 📰 IFNEWS
 
-Bem-vindo à página oficial do nosso projeto de desenvolvimento de um **portal de notícias escolares**! Esta iniciativa surgiu para resolver um problema comum em muitas instituições de ensino: a **comunicação falha ou tardia** entre a coordenação, os professores e os alunos.
+Bem-vindo à página oficial do nosso projeto de desenvolvimento de um **portal de notícias escolares**! Esta iniciativa surgiu para resolver um problema comum em muitas instituições de ensino: a **comunicação falha ou tardia** entre a coordenação, os professores e os alunos.## 
 
 Atualmente, a disseminação de informações é esparsa e nem todos os comunicados chegam a todos os alunos. Nosso objetivo é criar uma plataforma acessível, clara e centralizada para garantir que **ninguém fique de fora** do que acontece na escola.
 
@@ -79,7 +79,7 @@ Uma plataforma web centralizada e responsiva que:
 
 ---
 
-📘 Especificação do Projeto — IFNEWS
+## 📘 Especificação do Projeto — IFNEWS
 
   📌 Regras de Negócio
 
