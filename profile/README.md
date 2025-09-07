@@ -1,134 +1,125 @@
-# 📰 IFNEWS
+# 📝 T20Web — Ficha de Personagem Tormenta20
 
-Bem-vindo à página oficial do nosso projeto de desenvolvimento de um **portal de notícias escolares**! Esta iniciativa surgiu para resolver um problema comum em muitas instituições de ensino: a **comunicação falha ou tardia** entre a coordenação, os professores e os alunos.## 
-
-Atualmente, a disseminação de informações é esparsa e nem todos os comunicados chegam a todos os alunos. Nosso objetivo é criar uma plataforma acessível, clara e centralizada para garantir que **ninguém fique de fora** do que acontece na escola.
-[IMPORTANTE](https://docs.google.com/spreadsheets/d/1KXuMJ9TK7GPyahR_BfLwfn4ec7vX7DgiHx42vFc4E7g/edit?gid=932601097#gid=932601097)
+Bem-vindo à página oficial do nosso projeto de desenvolvimento de um **aplicativo web para ficha de personagem de Tormenta20 (T20)**. Esta iniciativa surgiu a partir da necessidade de **criar, editar e consultar fichas de personagem** de forma simples, rápida e acessível diretamente no navegador, **sem instalar programas**.
 
 ---
 
 ## 🎯 Objetivo do Projeto
 
-Desenvolver um site de notícias voltado à comunidade escolar, com foco em:
+Desenvolver um **site de fichas T20** que permita:
 
-- Publicação de comunicados oficiais da coordenação;
-- Avisos de professores e eventos escolares;
-- Canal direto e transparente de comunicação com os alunos;
-- Acesso rápido e prático por qualquer dispositivo com internet.
-
----
-
-## 🧩 Tecnologias Utilizadas (exemplo - personalize)
-
-- HTML, CSS
-- Framework Frontend:
-- Backend:
-- Banco de dados:
+* Criar, editar e visualizar fichas de personagem no navegador;
+* **Salvar e carregar** dados usando armazenamento local (localStorage);
+* **Exportar e importar** fichas em JSON (compatível entre navegadores);
+* Oferecer layout simples, responsivo e usável em qualquer dispositivo.
 
 ---
 
-## ❗ Situação-Problema Identificada
+## 🧩 Tecnologias Utilizadas
 
-- Muitos alunos não recebem avisos importantes da coordenação;
-- Mudanças de cronograma ou eventos não chegam a todos a tempo;
-- Falta de um canal oficial centralizado para consultas rápidas;
-- Dependência de murais físicos ou mensagens informais.
+---
+
+## ❗ Situação-Problema
+
+* Jogadores muitas vezes **perdem fichas** ou mantêm versões desatualizadas (papel, imagens, planilhas dispersas);
+* Dificuldade em **editar rapidamente** durante a sessão;
+* Ausência de **padrão único** para guardar informações essenciais de T20.
 
 ---
 
 ## 💡 Solução Proposta
 
-Uma plataforma web centralizada e responsiva que:
+Uma **aplicação web** centralizada, responsiva e leve que:
 
-- Permite à coordenação postar avisos diretamente no site;
-- Oferece histórico de notícias, editais e cronogramas;
-- Garante visibilidade e alcance das informações;
-- Melhora a organização da comunicação interna da escola.
+* Organiza os **campos essenciais** da ficha de T20 (dados básicos, atributos, perícias, poderes, magias, inventário, anotações);
+* **Valida campos** obrigatórios e tipos (número/texto);
+* **Salva automaticamente** (autosave) no navegador e permite **exportar/importar** JSON;
+* Oferece **limpar ficha** (reset) para começar uma nova rapidamente;
+* (Opcional futuro) **Exportar para PDF** e **impressão**.
 
 ---
 
 ## 🛠️ Funcionalidades Previstas
 
-- Área pública para visualização de notícias e eventos;
-- Área administrativa para publicação de conteúdo;
-- Filtro por categoria (coordenação, professores, eventos, etc.);
-- Sistema de busca por palavras-chave ou datas;
-- Notificações (e-mail ou push, opcional).
+* **Criar/Editar Ficha:** Formulários para dados básicos e seções de T20;
+* **Salvar Localmente:** Gravação em `localStorage` com chave única por ficha;
+* **Carregar Ficha:** Restaura dados salvos no navegador;
+* **Exportar/Importar JSON:** Levar a ficha para outro navegador ou compartilhar;
+* **Nova Ficha (Reset):** Limpa todos os campos com confirmação;
+* **Autosave (opcional):** Salva mudanças a cada edição;
+* **Validações mínimas:** Campos obrigatórios (Nome, Nível, Classe, Raça) e numéricos;
+* **Acessibilidade básica:** Navegação por teclado e rótulos claros.
 
 ---
 
 ## 👥 Equipe de Desenvolvimento
 
-- [Luiz Miguel Lima de Souza](https://github.com/LMSLima)
+* **Luiz Miguel Lima de Souza** — [GitHub: LMSLima](https://github.com/LMSLima)
 
-👨‍🏫 **Professor orientador**: [Marco André Mendes](https://github.com/marrcandre)
+👨‍🏫 **Professor orientador:** **Marco André Mendes** — [GitHub: marrcandre](https://github.com/marrcandre)
 
 ---
 
-## 🔗 Links Importantes (preencha com os reais)
+## 🔗 Links Importantes (atualizar com os reais)
 
-- 📄 Documentação: [Link para a documentação](#)
-- ⚙️ Backend: [Link do repositório backend](#)
-- 🎨 Frontend: [Link do repositório frontend](#)
-- 🌐 Site em produção: [](#)
+* 📄 Documentação do Projeto: #
+* 🎨 Repositório Frontend: #
+* ⚙️ Repositório Backend: #
+* 🌐 Deploy: #
 
 ---
 
 ## 📬 Contato
 
-- E-mail: [lmiguells095@gmail.com]
+* E-mail: **[lmiguells095@gmail.com](mailto:lmiguells095@gmail.com)**
 
 ---
 
-## 📘 Especificação do Projeto — IFNEWS
+## 📘 Especificação do Projeto — **T20Web**
 
 ### 📌 Regras de Negócio
 
-1. Somente usuários autenticados com permissão de administrador podem publicar, editar ou excluir notícias.  
-2. Usuários do tipo "Aluno" ou "Visitante" só têm permissão para visualizar conteúdos públicos.  
-3. Notícias devem ser categorizadas como: "Coordenação", "Professores", "Eventos", "Avisos Gerais".  
-4. Cada notícia deve conter: título, conteúdo, autor, data de publicação e categoria.  
-5. Notícias não podem ser publicadas com data futura.  
-6. A exclusão de uma notícia exige confirmação dupla para evitar perda acidental de informações.  
-7. Todas as publicações devem ser armazenadas com histórico de edições (log).  
-8. Professores podem publicar conteúdos apenas nas categorias "Professores" ou "Eventos", salvo autorização da coordenação.  
-9. A coordenação tem acesso completo ao painel administrativo, incluindo gerenciamento de usuários.  
-10. Notificações por e-mail ou push só podem ser enviadas para usuários cadastrados e com consentimento.  
+1. O sistema deve manter **pelo menos uma ficha ativa** no navegador (por padrão “Ficha Padrão”).
+2. Campos **obrigatórios:** Nome, Raça, Classe, Nível (≥1), Tendência (opcional), Jogador.
+3. Campos numéricos devem aceitar **apenas números inteiros** onde aplicável (ex.: Nível).
+4. **Atributos base:** Força, Destreza, Constituição, Inteligência, Sabedoria, Carisma.
+5. **Modificadores de atributo** podem ser calculados automaticamente (opcional) com base nas regras de T20.
+6. O usuário pode **exportar** a ficha em JSON e **importar** para continuar em outro navegador.
+7. A ação **“Nova Ficha”** limpa todos os campos após **confirmação** do usuário.
+8. Caso exista autosave, os dados podem ser gravados **a cada alteração** ou ao sair da página.
+9. A aplicação **não exige autenticação** (para simplificar o escopo e focar nos requisitos básicos do TCC).
+10. O sistema deve manter **compatibilidade entre versões** de exportação (JSON inclui versão do schema).
 
 ---
 
 ### ✅ Requisitos Funcionais
 
-#### 🔐 Autenticação e Acesso
+#### 🧾 Núcleo da Ficha
 
-- RF01: O sistema deve permitir login de usuários (alunos, professores e coordenação).  
-- RF02: O sistema deve permitir cadastro e gerenciamento de usuários pela coordenação.  
-- RF03: O sistema deve aplicar controle de acesso baseado em perfis (Admin, Professor, Aluno, Visitante).  
+* **RF01:** O sistema deve permitir **preencher** dados básicos da ficha (Nome, Raça, Classe, Nível, Jogador).
+* **RF02:** O sistema deve permitir **editar/atualizar** todas as informações da ficha.
+* **RF03:** O sistema deve permitir **salvar** os dados no navegador via `localStorage`.
+* **RF04:** O sistema deve permitir **carregar** a ficha salva no navegador.
+* **RF05:** O sistema deve permitir **apagar/limpar** todos os dados para criar uma **nova ficha**, com confirmação.
 
-#### 📰 Gerenciamento de Notícias
+#### 🧠 Atributos e Seções Essenciais
 
-- RF04: O sistema deve permitir criar, editar e excluir notícias.  
-- RF05: O sistema deve exibir a lista de notícias com título, resumo, autor, data e categoria.  
-- RF06: O sistema deve permitir filtrar notícias por categoria.  
-- RF07: O sistema deve permitir pesquisar notícias por palavras-chave.  
-- RF08: O sistema deve permitir visualizar a notícia completa em uma página dedicada.  
-- RF09: O sistema deve manter histórico de edições de cada notícia.  
+* **RF06:** O sistema deve oferecer campos para **Atributos** (For, Des, Con, Int, Sab, Car) e (opcional) **modificadores**.
+* **RF07:** O sistema deve oferecer campos para **Perícias** e **Proficências**.
+* **RF08:** O sistema deve oferecer campos para **Poderes/Habilidades de Classe**.
+* **RF09:** O sistema deve oferecer campos para **Magias** (se aplicável) e **Pontos de Mana** (PM).
+* **RF10:** O sistema deve oferecer campos para **Pontos de Vida** (PV), **Defesa**, **Deslocamento** e **Resistências** (livre).
+* **RF11:** O sistema deve oferecer campos para **Equipamentos/Inventário** e **Anotações**.
 
-#### 📅 Eventos e Cronogramas
+#### 💾 Persistência e Portabilidade
 
-- RF10: O sistema deve permitir a publicação de eventos com data, descrição e local.  
-- RF11: O sistema deve exibir um calendário de eventos futuros.  
+* **RF12:** O sistema deve permitir **exportar** a ficha em **arquivo JSON**.
+* **RF13:** O sistema deve permitir **importar** uma ficha a partir de **arquivo JSON** válido.
 
-#### 🔔 Notificações
+#### 🧭 Usabilidade
 
-- RF12: O sistema deve permitir o envio de notificações por e-mail para usuários cadastrados.  
-- RF13: O sistema deve permitir ativar ou desativar notificações nas configurações do usuário.  
-
-#### 👥 Administração
-
-- RF14: O sistema deve permitir à coordenação aprovar ou remover usuários.  
-- RF15: O sistema deve permitir o gerenciamento de permissões (ex: tornar um professor administrador).  
-- RF16: O sistema deve permitir visualizar logs de ações realizadas no sistema.  
+* **RF14:** O sistema deve oferecer **feedback** (mensagens de sucesso/erro) para salvar, carregar, exportar, importar e limpar ficha.
+* **RF15:** O sistema deve **validar** campos obrigatórios e impedir salvar/exportar quando faltarem dados críticos.
 
 ---
 
@@ -136,29 +127,29 @@ Uma plataforma web centralizada e responsiva que:
 
 #### 🔒 Segurança
 
-- RNF01: O sistema deve criptografar senhas utilizando algoritmo seguro (ex: bcrypt).  
-- RNF02: O sistema deve manter sessões com tokens de autenticação válidos e protegidos.  
-- RNF03: O sistema deve validar e sanitizar todos os inputs para evitar injeções e XSS.  
+* **RNF01:** Não armazenar senhas; dados limitam-se às fichas. (Sem autenticação.)
+* **RNF02:** Sanitizar entradas para evitar XSS ao exibir texto salvo.
+* **RNF03:** Ao importar JSON, validar o **schema** e rejeitar conteúdo inválido.
 
-#### 📱 Usabilidade
+#### 📱 Usabilidade e Acessibilidade
 
-- RNF04: O sistema deve ser responsivo e acessível em dispositivos móveis e desktop.  
-- RNF05: A interface deve seguir princípios de design claro, com botões e menus bem identificados.  
-- RNF06: O sistema deve fornecer mensagens de erro e sucesso claras para o usuário.  
+* **RNF04:** Interface **responsiva** e funcional em dispositivos móveis e desktop.
+* **RNF05:** Navegação por **teclado** e rótulos/descrições (ARIA) nas principais entradas.
+* **RNF06:** Interface **simples e organizada**, com seções claras (abas ou acordes).
 
 #### ⚙️ Performance
 
-- RNF07: O sistema deve carregar a página inicial com tempo inferior a 2 segundos em rede 4G.  
-- RNF08: O sistema deve suportar pelo menos 100 acessos simultâneos sem degradação perceptível de desempenho.  
+* **RNF07:** A página inicial deve carregar em **< 2s** em rede 4G em dispositivo médio.
+* **RNF08:** Operações de salvar/carregar local devem ocorrer em **tempo quase instantâneo** (<100ms para fichas típicas).
 
 #### 🕒 Disponibilidade e Backup
 
-- RNF09: O sistema deve estar disponível 99% do tempo (exceto janelas de manutenção).  
-- RNF10: O banco de dados deve ser backupado automaticamente ao menos 1 vez por dia.  
+* **RNF09:** Sem backend (offline-first); dados ficam **no dispositivo** do usuário.
+* **RNF10:** O sistema deve permitir **exportar** JSON como forma de **backup** manual.
 
 #### 📂 Documentação e Manutenção
 
-- RNF11: O sistema deve ter documentação técnica acessível para novos desenvolvedores.  
-- RNF12: O código deve seguir boas práticas de desenvolvimento (ex: PEP8, ESLint, etc.).  
+* **RNF11:** Código comentado e README com instruções de build e uso (Vite + Vue).
+* **RNF12:** Padrões de código (ESLint/Prettier) e organização de componentes.
 
 ---
