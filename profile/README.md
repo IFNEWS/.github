@@ -62,9 +62,9 @@ Uma **aplicação web** centralizada, responsiva e leve que:
 
 ## 🔗 Links Importantes (atualizar com os reais)
 
-* 📄 Documentação do Projeto: # (Documentação)[https://github.com/T20Web]
-* 🎨 Repositório Frontend: # (Frontend)[https://github.com/T20Web/Frontend]
-* ⚙️ Repositório Backend: # (Backend)[https://github.com/T20Web/Backend]
+* 📄 Documentação do Projeto: # [https://github.com/T20Web]
+* 🎨 Repositório Frontend: # [https://github.com/T20Web/Frontend]
+* ⚙️ Repositório Backend: # [https://github.com/T20Web/Backend]
 * 🌐 Deploy: #
 
 ---
