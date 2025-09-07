@@ -1,6 +1,6 @@
 # 📝 T20Web — Ficha de Personagem Tormenta20
 
-Bem-vindo à página oficial do nosso projeto de desenvolvimento de um **aplicativo web para ficha de personagem de Tormenta20 (T20)**. Esta iniciativa surgiu a partir da necessidade de **criar, editar e consultar fichas de personagem** de forma simples, rápida e acessível diretamente no navegador, **sem instalar programas**.
+Bem-vindo à página oficial do meu projeto de desenvolvimento de um **aplicativo web para ficha de personagem de Tormenta20 (T20)**. Esta iniciativa surgiu a partir da necessidade de **criar, editar e consultar fichas de personagem** de forma simples, rápida e acessível diretamente no navegador, **sem instalar programas**.
 
 ---
 
