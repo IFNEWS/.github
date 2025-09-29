@@ -2,6 +2,8 @@
 
 Bem-vindo à página oficial do meu projeto de desenvolvimento de um **aplicativo web para ficha de personagem de Tormenta20 (T20)**. Esta iniciativa surgiu a partir da necessidade de **criar, editar e consultar fichas de personagem** de forma simples, rápida e acessível diretamente no navegador, **sem instalar programas**.
 
+https://docs.google.com/spreadsheets/d/1KXuMJ9TK7GPyahR_BfLwfn4ec7vX7DgiHx42vFc4E7g/edit?gid=932601097#gid=932601097
+
 ---
 
 ## 🎯 Objetivo do Projeto
