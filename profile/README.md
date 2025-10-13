@@ -44,7 +44,6 @@ Uma **aplicação web** centralizada, responsiva e leve que:
 ## 🛠️ Funcionalidades Previstas
 
 * **Criar/Editar Ficha:** Formulários para dados básicos e seções de T20;
-* **Salvar Localmente:** Gravação em `localStorage` com chave única por ficha;
 * **Carregar Ficha:** Restaura dados salvos no navegador;
 * **Exportar/Importar JSON:** Levar a ficha para outro navegador ou compartilhar;
 * **Nova Ficha (Reset):** Limpa todos os campos com confirmação;
@@ -66,8 +65,8 @@ Uma **aplicação web** centralizada, responsiva e leve que:
 
 * Usar Este Repositório por enquanto # [https://github.com/T20Web/Backup]
 * 📄 Documentação do Projeto: # [https://github.com/T20Web]
-* 🎨 Repositório Frontend: # [https://github.com/T20Web/Frontend]
-* ⚙️ Repositório Backend: # [https://github.com/T20Web/Backend]
+* 🎨 Repositório Frontend: # [[https://github.com/T20Web/Frontend](https://github.com/T20Web/Frontend-T20Web)]
+* ⚙️ Repositório Backend: # [[https://github.com/T20Web/Backend](https://github.com/T20Web/Backend-T20Web)]
 * 🌐 Deploy: #
 
 ---
